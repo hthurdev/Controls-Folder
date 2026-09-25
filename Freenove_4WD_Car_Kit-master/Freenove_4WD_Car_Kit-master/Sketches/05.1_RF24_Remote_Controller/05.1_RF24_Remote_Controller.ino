@@ -9,7 +9,7 @@
 #include <SPI.h>
 #include "RF24.h"
 RF24 radio(9, 10);                // define the object to control NRF24L01
-const byte addresses[6] = "Free1";// define communication address which should correspond to remote control
+const byte addresses[6] = "TeAM2";// define communication address which should correspond to remote control
 // wireless communication
 int dataWrite[8];                 // define array used to save the write data
 // pin
